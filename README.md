@@ -359,7 +359,7 @@ class EcsStartup {
 * ["Pacman"](https://github.com/SH42913/pacmanecs)
 
 ## Released games
-* ["OUTERBLAST"](https://studiocraftapps.itch.io/outerblast)
+* ["OUTERBLAST"](https://stuwustudio.itch.io/outerblast)
   
   [![](https://img.youtube.com/vi/PqCJsiyogTg/0.jpg)](https://www.youtube.com/watch?v=PqCJsiyogTg)
 
@@ -461,6 +461,8 @@ struct MyComponent : IEcsAutoReset<MyComponent> {
 ```
 This method will be automatically called for brand new component instance and after component removing from entity and before recycling to component pool.
 > Important: With custom `AutoReset` behaviour there are no any additional checks for reference-type fields, you should provide correct cleanup/init behaviour without possible memory leaks.
+
+> Important: Custom `AutoReset` not compatible with `entity.Replace()` calls for full replacement of component. Better to not use `entity.Replace()` or any other full replacements at all.
 
 ### I use components as events that works only one frame, then remove it at last system in execution sequence. It's boring, how I can automate it?
 
