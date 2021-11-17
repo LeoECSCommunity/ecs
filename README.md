@@ -355,6 +355,7 @@ class EcsStartup {
 * ["3D Platformer"](https://github.com/supremestranger/3D-Platformer)
   [![](https://camo.githubusercontent.com/dcd2f525130d73f4688c1f1cfb12f6e37d166dae23a1c6fac70e5b7873c3ab21/68747470733a2f2f692e6962622e636f2f686d374c726d342f506c6174666f726d65722e706e67)](https://github.com/supremestranger/3D-Platformer)
 * ["SpaceInvaders (Guns&Bullets variation)"](https://github.com/GoodCatGames/SpaceInvadersEcs)
+  [![](https://github.com/GoodCatGames/SpaceInvadersEcs/raw/master/docs/SpaceInvadersImage.png)](https://github.com/GoodCatGames/SpaceInvadersEcs)
 * ["Runner"](https://github.com/t1az2z/RunnerECS)
 * ["Pacman"](https://github.com/SH42913/pacmanecs)
 
